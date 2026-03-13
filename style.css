@@ -1,0 +1,65 @@
+
+body{
+margin:0;
+font-family:Arial;
+color:white;
+}
+
+.spiderman{
+background:linear-gradient(135deg,#0b0b0b,#111111);
+background-image:
+radial-gradient(circle at 20% 20%, rgba(255,0,0,0.4), transparent 40%),
+radial-gradient(circle at 80% 30%, rgba(0,80,255,0.4), transparent 40%);
+background-size:cover;
+background-attachment:fixed;
+}
+
+.contenido{
+background:rgba(0,0,0,0.8);
+max-width:500px;
+margin:50px auto;
+padding:30px;
+border-radius:15px;
+text-align:center;
+}
+
+h1{
+color:red;
+}
+
+p{
+font-size:18px;
+}
+
+.foto{
+width:100%;
+border-radius:10px;
+margin:15px 0;
+}
+
+.video{
+width:100%;
+border-radius:10px;
+}
+
+.boton{
+display:inline-block;
+margin-top:20px;
+padding:15px 25px;
+background:red;
+color:white;
+text-decoration:none;
+border-radius:10px;
+font-size:18px;
+}
+
+.boton:hover{
+background:#ff3333;
+}
+.galeria{
+
+display:flex;
+flex-direction:column;
+gap:20px;
+
+}
